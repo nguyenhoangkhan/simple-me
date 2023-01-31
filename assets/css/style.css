@@ -1,0 +1,174 @@
+/* RESET CSS */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  width: 100%;
+}
+#btn {
+  height: 24px;
+  font-size: 14pt;
+}
+.put-center {
+  text-align: center;
+}
+#header {
+  width: 100%;
+  height: 80px;
+  background-color: whitesmoke;
+  position: relative;
+}
+.nav li a:hover {
+  color: #1abc9c;
+}
+.nav li {
+  display: inline-block;
+  letter-spacing: 5px;
+  font-weight: 100;
+}
+.nav li a {
+  text-decoration: none;
+  line-height: 80px;
+  color: #777;
+  font-family: sans-serif;
+}
+.nav .right-side {
+  float: right;
+  padding: 0 40px;
+  font-size: 12px;
+}
+.nav .left-side {
+  font-size: 18px;
+  padding-left: 90px;
+}
+#content {
+  width: 100%;
+  height: 900px;
+  max-width: 100%;
+}
+#content .who-content {
+  background-color: #1abc9c;
+  color: white;
+}
+#content .who-content .toi-la-khan {
+  padding: 90px 0 0 0;
+  font-size: 24px;
+  font-family: cursive;
+  margin-bottom: 45px;
+}
+#content .img-1 {
+  border-radius: 50%;
+  margin: 0 0 45px;
+}
+#content .message {
+  padding: 0px 0 40px;
+  font-family: cursive;
+}
+#content .what-content {
+  background-color: #474e5d;
+  width: 100%;
+  height: 300px;
+  text-align: center;
+  font-family: cursive;
+  color: white;
+}
+#content .question {
+  padding-top: 50px;
+  margin: 0px 0 45px;
+}
+#content .answer {
+  margin: 0 0 30px;
+}
+#content .btn {
+  background-color: white;
+  padding: 10px 16px;
+  text-decoration: none;
+  border-radius: 6px;
+  color: black;
+  line-height: 1.33333;
+  font-family: cursive;
+}
+#content .where-content {
+  padding: 70px 15px;
+}
+#content .where-content h1 {
+  text-align: center;
+  font-size: 24px;
+  margin: 20px 0px 45px;
+  color: rgb(85, 85, 85);
+}
+
+.text-img {
+  display: flex;
+  text-align: center;
+  padding: 15px;
+}
+#where-content p {
+  margin: 0px 0px 10px 0px;
+  color: rgb(85, 85, 85);
+  font-size: 16px;
+  line-height: 1.8;
+  font-weight: 700;
+}
+#footer {
+  width: 100%;
+  height: 150px;
+  background-color: #2f2f2f;
+  position: relative;
+}
+#footer .copy-right {
+  color: white;
+}
+#footer a {
+  text-decoration: none;
+  color: teal;
+}
+#footer a:hover {
+  text-decoration: underline;
+}
+#footer p {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 20px;
+  font-family: "Courier New", Courier, monospace;
+}
+/* I-PAD */
+@media only screen and (max-width: 1024px) {
+  #who-content {
+    width: 100%;
+  }
+  .text-img {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .text-img .place-content {
+    margin-top: 30px;
+  }
+  .end {
+    text-align: center;
+  }
+}
+/* MOBILE */
+@media only screen and (max-width: 739px) {
+  #header .left-side {
+    margin-left: -1000px;
+  }
+  .answer p {
+    text-align: center;
+    padding: 0 10px;
+    margin-top: -25px;
+  }
+  ul {
+    text-align: center;
+  }
+}
+.search-btn {
+  transition: 0.3s ease-in;
+}
+.search-btn:hover {
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.6);
+}
